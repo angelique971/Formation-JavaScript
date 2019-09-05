@@ -31,7 +31,7 @@ var age = 40;
 console.log(age);
 console.log(typeof age)
 
-//-- Les variables de ty pes FLOAT 
+//-- Les variables de types FLOAT 
 var uneDecimale = -2.984;
 console.log(uneDecimale);
 console.log(typeof uneDecimale);
@@ -69,6 +69,12 @@ unNombre= "12.55"
 unNombre = parseFloat(unNombre);
 console.log(unNombre);
 console.log(typeof unNombre);
+
+//--Pour convertir un nombre entier en Float en String 
+unNombre = 10;
+var unString = unNombre.toString();
+console.log (unString);
+console.log( typeof unString );
 
 /*------------------------------------------------~
 ~~~~~~~~~~LA PORTE DES VARIABLES~~~~~~~~~~

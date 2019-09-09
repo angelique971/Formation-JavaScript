@@ -109,5 +109,3 @@ var resultat = ConverteuroToUSD (210, 1.1035);
 console.log(resultat);
 
 
-
-

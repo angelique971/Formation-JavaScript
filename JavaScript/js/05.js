@@ -21,7 +21,7 @@ nb1 +=5; //J'ajoute +5 à nb1 identique à nb1 = nb1 + 5;
 var nb1 = 1;
 nb1 = nb1 - 1;
 //Ecriture simplifiée
-//La meme chose aue nb1 = nb1 + 1; Toujours par pas de 1.
+//La meme chose que nb1 = nb1 + 1; Toujours par pas de 1.
 nb1--;
 
 // Ou encore

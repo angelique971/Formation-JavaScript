@@ -102,7 +102,8 @@ if ( email === emailPrompt && mdp === mdpPrompt ) {
     // -- 3. Tous est ok, l'utilisateur est authentifié
     alert("Bienvenue " + emailPrompt + " !");
 } else {
-    // -- 4. Erreur au niveau de l'authentification
+
+// -- 4. Erreur au niveau de l'authentification
     alert("ATTENTION, email / mdp incorrect.");
 }
 
@@ -120,3 +121,41 @@ if ( connexion( emailPrompt, mdpPrompt ) ) {
 } else {
     alert("ATTENTION, email / mdp incorrect.");
 }    
+
+
+         /* -------------------------------------------|   |------------- *\
+        /                                              |   |                \
+       /           ~         LES OPERATEURS LOGIQUES          ~              \
+      /_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+        |                                                                   |
+        |   # L'Opérateur ET : &&. Si la combinaison email et emailUser     |
+        |   correspond, ET la combinaison mdp et mdpUser correspond.        |
+        |                                                                   |
+        |   --> Dans cette condition, les 2 doivent OBLIGATOIREMENT         |
+        |   correspondre pour être validée.                                 |   
+        |   Ex. if(emailUser === email && mdpUser === mdp) { ... }          |
+        |                                                                   |
+        |   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   |
+        |                                                                   |
+        |   # L'Opérateur OU : ||. Si la combinaison email et emailUser     |
+        |   correspond, ET / OU la combinaison mdp et mdpUser correspond.   |
+        |                                                                   |
+        |   --> Dans cette condition, au moins l'une des deux doit          |
+        |   correspondre pour être validée.                                 |
+        |   Ex. if(emailUser === email || mdpUser === mdp) { ... }          |
+        |                                                                   |
+        |   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   |
+        |                                                                   |
+        |   # L'Opérateur " ! " ou encore NOT.                              |
+        |   Il signifie le CONTRAIRE DE, DIFFERENT DE                       |
+        |                                                                   |
+        |   var monUtilisateurEstApprouve = true;                           |
+        |   if ( !monUtilisateurEstApprouve ) { ... }                       |
+        |   Si mon utilisateur n'est pas approuvé                           |
+        |                                                                   |
+        |  Revient à écrire                                                 |
+        |  if ( monUtilisateurEstApprouve === false ) { ... }               |
+        |                                                                   |
+        \*_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _*/
+
+        
